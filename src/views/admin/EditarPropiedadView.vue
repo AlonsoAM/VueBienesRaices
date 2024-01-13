@@ -51,6 +51,7 @@ const submit = handleSubmit(async (values) => {
   if (image.value) {
     console.log("Hay imagen nueva");
   } else {
+    console.log("No hay imagen nueva");
   }
 });
 </script>
